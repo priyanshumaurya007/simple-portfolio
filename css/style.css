@@ -1,0 +1,334 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#preloader {
+  background: #000 url("../gif/loader.gif") no-repeat center center;
+  background-size: 30%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+.background {
+  background: rgba(0, 0, 0, 0.752) url("../img/bg.jpg");
+  background-size: cover;
+  background-blend-mode: soft-light;
+}
+
+#home {
+  background: rgba(0, 0, 0, 0.8) url("../img/bg11.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  position: sticky;
+  /* height: 777px; */
+}
+
+.nav-list {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-items: center;
+}
+
+.nav-list li {
+  list-style: none;
+  padding: 26px 30px;
+  cursor: pointer;
+  margin: 0px 2px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0px 2px;
+  padding: 10px 10px;
+}
+
+.nav-list li a:hover {
+  background-color: tomato;
+  border: 2px solid white;
+  border-radius: 16px;
+  color: black;
+}
+
+.burger {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 15px;
+}
+
+.line {
+  width: 33px;
+  background-color: white;
+  height: 4px;
+  margin: 5px 3px;
+}
+
+.homesection {
+  height: 70vh;
+}
+
+.homelogo {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px;
+}
+
+.homelogo img {
+  width: 55%;
+  border: 5px solid white;
+  border-radius: 50%;
+  margin-top: 35px;
+  padding: 15px;
+}
+
+.box-main {
+  display: flex;
+  align-items: center;
+}
+.paras {
+  width: 50%;
+}
+.text-big {
+  font-size: 60px;
+  color: tomato;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  margin: 24px 0px;
+}
+.text-small {
+  font-size: 30px;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#cv-button {
+  cursor: pointer;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+.btn {
+  padding: 10px 30px;
+  border: 3px solid tomato;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.sec-aboutmyself {
+  height: 100vh;
+  background-color: rgb(208, 231, 250);
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.boundary {
+  border: 2px solid rgb(126, 125, 125);
+}
+
+.about-paras {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.pic {
+  width: 40%;
+  /* transform: scaleX(-1); */
+  margin-top: 50px;
+}
+
+.deskpic {
+  width: 70vh;
+  margin-left: 40px;
+  margin-top: 70px;
+}
+
+.about {
+  margin: 40px 15px;
+}
+
+.aboutme {
+  text-align: center;
+}
+
+.about-text-big {
+  font-size: 60px;
+  color: rgb(206, 83, 165);
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  margin: 24px 0px;
+}
+
+.about-text-small {
+  width: auto;
+  font-size: 20px;
+  padding: 14px 15px;
+  font-family: "Ubuntu", sans-serif;
+  margin: 25px 15px;
+}
+
+.para {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+#skill {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.438);
+}
+
+.skill-all {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 70px 10px;
+}
+.skills {
+  display: flex;
+  text-align: left;
+  width: 100%;
+  justify-content: left;
+  padding: 5px 21px;
+  border-radius: 30px;
+}
+
+.cc {
+  background-color: rgb(57, 144, 202);
+  width: 90%;
+}
+.c {
+  background-color: rgb(57, 144, 202);
+  width: 80%;
+}
+.java {
+  background-color: rgb(57, 144, 202);
+  width: 70%;
+}
+.front-end {
+  background-color: rgb(57, 144, 202);
+  width: 82%;
+}
+.python {
+  background-color: rgb(57, 144, 202);
+  width: 65%;
+}
+
+.skill-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.479);
+}
+
+.container {
+  background-color: #ddd;
+  margin: 20px 0px;
+  font-size: 30px;
+  width: 66%;
+  border-radius: 30px;
+}
+
+footer {
+  color: white;
+  background: rgb(2, 2, 34);
+  display: flex;
+  padding: 35px 15px;
+  flex-direction: column;
+}
+
+.address {
+  padding: 55px;
+}
+
+.base {
+  display: flex;
+}
+
+.rights {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 10px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.footer-text-big {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  padding: 15px 10px;
+  font-family: "Ubuntu", sans-serif;
+}
+.footer-text-small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  padding: 15px 10px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.connected {
+  display: flex;
+  padding-left: 80px;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 40px;
+  color: tomato;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 6px;
+  border-radius: 75%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  color: rgb(2, 2, 34);
+  background-color: yellowgreen;
+}

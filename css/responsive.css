@@ -1,0 +1,184 @@
+@media only screen and (max-width: 1300px) {
+  #preloader {
+    background-size: 100%;
+  }
+
+  .navbar {
+    flex-direction: column;
+    transition: all 0.2s ease-out;
+    height: 447px;
+    background-color: black;
+  }
+
+  .logo {
+    margin-top: 20px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+  }
+
+  .box-main {
+    flex-direction: column;
+  }
+
+  .paras {
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .homelogo img {
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 0px;
+    padding: 5px;
+  }
+  .text-big {
+    font-size: 32px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 5px 0px;
+  }
+
+  .text-small {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #cv-button {
+    cursor: pointer;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 26px 0px;
+  }
+
+  .pic {
+    display: none;
+  }
+
+  .about {
+    margin: 0px;
+  }
+
+  .about-text-big {
+    font-size: 25px;
+    margin: 10px 0px;
+  }
+
+  .about-text-small {
+    font-size: 16px;
+  }
+  #skill {
+    height: 79vh;
+  }
+  .skill-heading {
+    padding: 6px;
+    font-size: 24px;
+  }
+
+  .skill-all {
+    margin: 0px;
+    margin-top: 70px;
+  }
+
+  .cc {
+    width: 74%;
+  }
+
+  .c {
+    width: 65%;
+  }
+
+  .java {
+    width: 60%;
+  }
+
+  .front-end {
+    width: 57%;
+  }
+
+  .container {
+    margin: 14px 0px;
+    font-size: 16px;
+  }
+
+  .address {
+    padding: 20px;
+  }
+
+  footer {
+    /* padding: 15px 0px; */
+    padding-bottom: 25px;
+  }
+
+  .footer-text-big {
+    font-size: 20px;
+  }
+  .footer-text-small {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .base {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rights {
+    width: auto;
+    padding: 0px;
+    font-size: 12px;
+  }
+  .connected {
+    display: flex;
+    padding-left: 0px;
+    width: auto;
+    padding: 20px 0px;
+  }
+
+  .fa {
+    padding: 8px;
+    font-size: 20px;
+    color: tomato;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 6px;
+    border-radius: 50%;
+    border: 1px solid;
+  }
+
+  .fa-facebook {
+    width: 5%;
+  }
+
+  .h-nav-resp {
+    height: 72px;
+  }
+  .v-class-resp {
+    opacity: 0;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .btn {
+    padding: 6px 30px;
+    border: 3px solid tomato;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+  }
+}
